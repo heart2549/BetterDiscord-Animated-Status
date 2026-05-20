@@ -7,7 +7,7 @@
  * @source https://raw.githubusercontent.com/toluschr/BetterDiscord-Animated-Status/master/Animated_Status.plugin.js
  */
 
-class AnimatedStatus {
+module.exports = class AnimatedStatus {
   constructor(meta) {
     this.meta = meta
     this.kSpacing = "15px";
